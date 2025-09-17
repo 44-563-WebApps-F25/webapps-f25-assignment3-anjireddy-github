@@ -120,5 +120,23 @@
             </tr>
         </tbody>
     </table>
+    
+    <hr>
+    
+    <h2>Code Snippet: Writing JSON Data to File in Python</h2>
+    
+    <p>This Python code snippet demonstrates how to write data to a JSON file using Python's built-in json module. The function takes any data structure (like a dictionary or list) and saves it to a file in JSON format with proper indentation for readability. This is particularly useful for saving configuration data, API responses, or any structured data that needs to be stored persistently.</p>
+    
+    <pre>
+import json
+
+def write_json_to_file(data, filepath):
+	with open(filename, "w") as f:
+		json.dump(data, f, indent=4)
+    </pre>
+    
+    <p><strong>Source:</strong> <a href="https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file">How do I write JSON data to a file - Stack Overflow</a></p>
+    
+    <p><strong>Additional Reference:</strong> <a href="https://pythonexamples.org/python-write-json-to-file/">Use Python to write JSON to a file - Python Examples</a></p>
 </body>
 </html>
